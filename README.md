@@ -30,7 +30,7 @@ Smithers,Waylon,       1903,1970<br />
 1920 nets 2 people alive<br />
 1945 nets 1 person alive<br />
 1950 nets 1 person dead(more people died this year than born)<br />
-1970 nets 1 person dead<br />
+1970 nets 0 people alive or dead (same amount of people born and died this year) <br />
 1991 nets 2 people dead<br />
 1998 nets 1 person dead<br />
 <br />
@@ -49,6 +49,7 @@ Smithers,Waylon,       1903,1970<br />
   <td>+2</td>
   <td>+1</td>
   <td>-1</td>
+  <td>0</td>
   <td>-2</td>
   <td>-1</td>
  </tr>
@@ -57,6 +58,7 @@ Smithers,Waylon,       1903,1970<br />
   <td>3</td>
   <td>4</td>
   <td>3</td>
+  <td>0</td>
   <td>1</td>
   <td>0</td>
  </tr>
