@@ -3,6 +3,7 @@ Github repostitory for SGI Coding Challenge #1<br />
 <br />
 
 Built with Python 2.7.6<br />
+Writtin on Linux Mint 17.3 Rosa<br />
 No special packages are required, everything is done with base python<br />
 
 <br />
