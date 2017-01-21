@@ -25,8 +25,11 @@ yearWithMostAlive = 1900
 # Initialize the dictionary 
 yearsDict = {}
 
+def printtable(row):
+	print (str(row[0]) + ' | ' + str(row[1]) + ' | ' + str(numberAlive))
+
 # Open and read in each line of the data file and append to the data list
-with open('datafile.csv', 'rb') as f:
+with open('datafile.csv', 'r') as f:
 	reader = csv.reader(f)
 	dataList = list(reader)
 
@@ -37,7 +40,6 @@ for entry in dataList:
 	yearBorn = int(entry[2])
 	# Obtain the year died
 	yearDied = int(entry[3])
-	
 	
 	# Check if the year born is in the dict, if so, increment value, if not, create new dict entry
 	if yearBorn in yearsDict:
@@ -53,17 +55,18 @@ for entry in dataList:
 
 # Sort the dictionary based on keys (years)
 sortedDict = sorted(yearsDict.items(), key=operator.itemgetter(0))
-#print sortedDict
 
+print ('YEAR | NET CHANGE | TOTAL')
 # For eatch entry in the dictionary get the net number of people alive, compare with current, update accordingly
 for element in sortedDict:
 	
 	# Get the net number of people alive in a year and add to the current number alive
 	numberAlive += element[1]
+	printtable(element)
 	# If the number alive is greater than the max, set current number alive to max, and the year to current key 
 	if (numberAlive > maxNumberAlive):
 		maxNumberAlive = numberAlive
 		yearWithMostAlive = element[0]
 
 # Print the year the most people were alive in 
-print "There were the most people alive in the year " + str(yearWithMostAlive) + " at " + str(maxNumberAlive)
+print ('There were the most people alive in the year ' + str(yearWithMostAlive) + ' at ' + str(maxNumberAlive))
