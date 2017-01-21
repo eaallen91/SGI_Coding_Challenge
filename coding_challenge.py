@@ -9,6 +9,7 @@
 # Who              | What                                                                                | When
 # ----------------------------------------------------------------------------------------------------------------------
 # Eric Allen       | Created the bare bones file                                                         | Jan 20, 2017
+# Eric Allen       | Updated the output to include more                                                  | Jan 20, 2017
 ########################################################################################################################
 import csv
 import operator
@@ -25,6 +26,7 @@ yearWithMostAlive = 1900
 # Initialize the dictionary 
 yearsDict = {}
 
+# A samll function to cleanly print a row of data for a year
 def printtable(row):
 	print (str(row[0]) + ' | ' + str(row[1]) + ' | ' + str(numberAlive))
 
