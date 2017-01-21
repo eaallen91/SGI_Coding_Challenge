@@ -2,12 +2,13 @@
 Github repostitory for SGI Coding Challenge #1<br />
 <br />
 
-Built with Python 2.7.1<br />
+Built with Python 2.7.6<br />
 No special packages are required, everything is done with base python<br />
 
 <br />
 Tested and verified using:<br />
-Python 2.7.1<br />
+Python 2.7.6<br />
+Python 3.4.3<br />
 <br />
 
 <strong>How it was set up: </strong><br />
