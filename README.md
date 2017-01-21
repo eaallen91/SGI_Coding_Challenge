@@ -19,8 +19,8 @@ Python 2.7.1<br />
 <strong>Assumptions:</strong><br />
 1000000 rows of data<br />
 Birth dates and death dates are randomly generated<br />
-The data only contains people who were born and died between 1900 and 2000
-&nbsp&nbsp&nbsp&nbsp-"Given a list of people with their birth and end years (all between 1900 and 2000)"
+The data only contains people who were born and died between 1900 and 2000<br />
+    -"Given a list of people with their birth and end years (all between 1900 and 2000)"<br />
 <br />
 
 <strong>High-level:</strong><br />
