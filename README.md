@@ -1,5 +1,5 @@
 # SGI_Coding_Challenge
-Github repostitory for SGI Coding Challenge #1<br />
+Github repostitory for Scientific Games Interactive (SGI) Coding Challenge #1<br />
 <br />
 
 Built with Python 2.7.6<br />
